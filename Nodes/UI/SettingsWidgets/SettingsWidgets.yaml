@@ -1,0 +1,6 @@
+Name: SettingsWidgets
+Type: FolderType
+Children:
+- File: NetworkSettingsWidget/NetworkSettingsWidget.yaml
+- File: DeviceSettingsWidget/DeviceSettingsWidget.yaml
+- File: FactoryTalkRemoteAccessWidget/FactoryTalkRemoteAccessWidget.yaml

@@ -1,0 +1,675 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: TREND
+  Id: g=f734fc150294bcbc29f83b3ff807812b
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: FLOW
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: MG_450101
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450301
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450302
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450401
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450402
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450403
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450501
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450601
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450701
+          Type: StoreColumn
+          DataType: Float
+    - Name: TOTALISER
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: MG_450101_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450201_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450202_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450301_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450302_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450401_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450402_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450403_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450501_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450601_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450701_TOTA
+          Type: StoreColumn
+          DataType: Float
+    - Name: CONDUCTIVITY
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: CDT_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450301
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450302
+          Type: StoreColumn
+          DataType: Float
+        - Name: ORP_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: TBD_450101
+          Type: StoreColumn
+          DataType: Float
+    - Name: PH
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: PH_450101
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450401
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450601
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450602
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450701
+          Type: StoreColumn
+          DataType: Float
+    - Name: RPM
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: SIC_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450301
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450302
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450601
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450801
+          Type: StoreColumn
+          DataType: Float
+  - Class: Reference
+    Target: ns=31;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=15;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=59
+    Direction: Forward
+  - Name: InMemory
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Alarm
+  Id: g=24121cfbc467046204fe037dbe6b8497
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: AlarmsEventLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: AckedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: ConfirmedState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: ConditionName
+          Type: StoreColumn
+          DataType: String
+        - Name: EnabledState_Id
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: 'Message_en-US'
+          Type: StoreColumn
+          DataType: String
+        - Name: Severity
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: DateTime
+  - Class: Reference
+    Target: ns=31;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=15;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=59
+    Direction: Forward
+- Name: REPORT
+  Id: g=90009ef05875d86a5ae0acc49813af1c
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger2
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=15;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=15;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: MG_450101
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450301
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450302
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450401
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450402
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450403
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450501
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450601
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450701
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450101_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450201_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450202_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450301_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450302_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450401_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450402_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450403_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450501_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450601_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: MG_450701_TOTA
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450101
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450401
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450601
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450602
+          Type: StoreColumn
+          DataType: Float
+        - Name: PH_450701
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450202
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450301
+          Type: StoreColumn
+          DataType: Float
+        - Name: CDT_450302
+          Type: StoreColumn
+          DataType: Float
+        - Name: ORP_450201
+          Type: StoreColumn
+          DataType: Float
+        - Name: TBD_450101
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450201_SI
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450202_SI
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450301_SI
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450302_SI
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450601_SI
+          Type: StoreColumn
+          DataType: Float
+        - Name: SIC_450801_SI
+          Type: StoreColumn
+          DataType: Float
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "sa"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    Value: "sa"
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: SFBufferOverflow
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=15;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=59
+    Direction: Forward
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+    Value: "AAPLL160\\MSSQLSERVER1"
+  - Name: Port
+    Type: PropertyType
+    DataType: UInt16
+    Value: 1433
+  - Name: Database
+    Type: PropertyType
+    DataType: String
+    Value: "A24007_PCTP"
+  - Name: DSN
+    Type: PropertyType
+    DataType: String

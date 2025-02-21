@@ -1,0 +1,14 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: NodePointer1
+  Id: g=7fde7de70e71245e45a9d60923b075a7
+  Type: NodePointer
+  DataType: NodeId
+  Children:
+  - Name: Kind
+    Id: g=d17010e79d3c62cad13369c0a552a1bd
+    Type: PropertyType
+    DataType: NodeId
+- File: PCTP/PCTP.yaml

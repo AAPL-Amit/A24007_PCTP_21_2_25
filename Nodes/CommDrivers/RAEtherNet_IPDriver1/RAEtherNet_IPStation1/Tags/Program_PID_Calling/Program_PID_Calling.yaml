@@ -1,0 +1,1483 @@
+Name: 'Program:PID_Calling'
+Type: FolderType
+Children:
+- Name: Step_000
+  Type: SFC_STEP
+  DataType: SFC_STEP
+  Children:
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.Status"
+  - Name: X
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.X"
+  - Name: FS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.FS"
+  - Name: SA
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.SA"
+  - Name: LS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.LS"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.OV"
+  - Name: AlarmEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.AlarmEn"
+  - Name: AlarmLow
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.AlarmLow"
+  - Name: AlarmHigh
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.AlarmHigh"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.Reset"
+  - Name: PauseTimer
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.PauseTimer"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.PRE"
+  - Name: T
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.T"
+  - Name: TMax
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.TMax"
+  - Name: Count
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.Count"
+  - Name: LimitLow
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.LimitLow"
+  - Name: LimitHigh
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.Step_000.LimitHigh"
+- Name: Tran_000
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PID_Calling.Tran_000"
+- Name: PIDE_01
+  Type: PID_ENHANCED
+  DataType: PID_ENHANCED
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.EnableIn"
+  - Name: PV
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PV"
+  - Name: PVFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVFault"
+  - Name: PVEUMax
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVEUMax"
+  - Name: PVEUMin
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVEUMin"
+  - Name: SPProg
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPProg"
+  - Name: SPOper
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPOper"
+  - Name: SPCascade
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPCascade"
+  - Name: SPHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPHLimit"
+  - Name: SPLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPLLimit"
+  - Name: UseRatio
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.UseRatio"
+  - Name: RatioProg
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioProg"
+  - Name: RatioOper
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioOper"
+  - Name: RatioHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioHLimit"
+  - Name: RatioLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioLLimit"
+  - Name: CVFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVFault"
+  - Name: CVInitReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVInitReq"
+  - Name: CVInitValue
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVInitValue"
+  - Name: CVProg
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVProg"
+  - Name: CVOper
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVOper"
+  - Name: CVOverride
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVOverride"
+  - Name: CVPrevious
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVPrevious"
+  - Name: CVSetPrevious
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVSetPrevious"
+  - Name: CVManLimiting
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVManLimiting"
+  - Name: CVEUMax
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVEUMax"
+  - Name: CVEUMin
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVEUMin"
+  - Name: CVHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVHLimit"
+  - Name: CVLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVLLimit"
+  - Name: CVROCLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVROCLimit"
+  - Name: FF
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.FF"
+  - Name: FFPrevious
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.FFPrevious"
+  - Name: FFSetPrevious
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.FFSetPrevious"
+  - Name: HandFB
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.HandFB"
+  - Name: HandFBFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.HandFBFault"
+  - Name: WindupHIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.WindupHIn"
+  - Name: WindupLIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.WindupLIn"
+  - Name: ControlAction
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ControlAction"
+  - Name: DependIndepend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DependIndepend"
+  - Name: PGain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PGain"
+  - Name: IGain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.IGain"
+  - Name: DGain
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DGain"
+  - Name: PVEProportional
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVEProportional"
+  - Name: PVEDerivative
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVEDerivative"
+  - Name: DSmoothing
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DSmoothing"
+  - Name: PVTracking
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVTracking"
+  - Name: ZCDeadband
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ZCDeadband"
+  - Name: ZCOff
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ZCOff"
+  - Name: PVHHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVHHLimit"
+  - Name: PVHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVHLimit"
+  - Name: PVLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVLLimit"
+  - Name: PVLLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVLLLimit"
+  - Name: PVDeadband
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVDeadband"
+  - Name: PVROCPosLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVROCPosLimit"
+  - Name: PVROCNegLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVROCNegLimit"
+  - Name: PVROCPeriod
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVROCPeriod"
+  - Name: DevHHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevHHLimit"
+  - Name: DevHLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevHLimit"
+  - Name: DevLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevLLimit"
+  - Name: DevLLLimit
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevLLLimit"
+  - Name: DevDeadband
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevDeadband"
+  - Name: AllowCasRat
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AllowCasRat"
+  - Name: ManualAfterInit
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ManualAfterInit"
+  - Name: ProgProgReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgProgReq"
+  - Name: ProgOperReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgOperReq"
+  - Name: ProgCasRatReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgCasRatReq"
+  - Name: ProgAutoReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgAutoReq"
+  - Name: ProgManualReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgManualReq"
+  - Name: ProgOverrideReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgOverrideReq"
+  - Name: ProgHandReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgHandReq"
+  - Name: OperProgReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.OperProgReq"
+  - Name: OperOperReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.OperOperReq"
+  - Name: OperCasRatReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.OperCasRatReq"
+  - Name: OperAutoReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.OperAutoReq"
+  - Name: OperManualReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.OperManualReq"
+  - Name: ProgValueReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgValueReset"
+  - Name: TimingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.TimingMode"
+  - Name: OversampleDT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.OversampleDT"
+  - Name: RTSTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RTSTime"
+  - Name: RTSTimeStamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RTSTimeStamp"
+  - Name: AtuneAcquire
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneAcquire"
+  - Name: AtuneStart
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneStart"
+  - Name: AtuneUseGains
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneUseGains"
+  - Name: AtuneAbort
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneAbort"
+  - Name: AtuneUnacquire
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneUnacquire"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.EnableOut"
+  - Name: CVEU
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVEU"
+  - Name: CV
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CV"
+  - Name: CVInitializing
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVInitializing"
+  - Name: CVHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVHAlarm"
+  - Name: CVLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVLAlarm"
+  - Name: CVROCAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVROCAlarm"
+  - Name: SP
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SP"
+  - Name: SPPercent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPPercent"
+  - Name: SPHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPHAlarm"
+  - Name: SPLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPLAlarm"
+  - Name: PVPercent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVPercent"
+  - Name: E
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.E"
+  - Name: EPercent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.EPercent"
+  - Name: InitPrimary
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.InitPrimary"
+  - Name: WindupHOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.WindupHOut"
+  - Name: WindupLOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.WindupLOut"
+  - Name: Ratio
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Ratio"
+  - Name: RatioHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioHAlarm"
+  - Name: RatioLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioLAlarm"
+  - Name: ZCDeadbandOn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ZCDeadbandOn"
+  - Name: PVHHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVHHAlarm"
+  - Name: PVHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVHAlarm"
+  - Name: PVLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVLAlarm"
+  - Name: PVLLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVLLAlarm"
+  - Name: PVROCPosAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVROCPosAlarm"
+  - Name: PVROCNegAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVROCNegAlarm"
+  - Name: DevHHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevHHAlarm"
+  - Name: DevHAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevHAlarm"
+  - Name: DevLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevLAlarm"
+  - Name: DevLLAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevLLAlarm"
+  - Name: ProgOper
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ProgOper"
+  - Name: CasRat
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CasRat"
+  - Name: Auto
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Auto"
+  - Name: Manual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Manual"
+  - Name: Override
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Override"
+  - Name: Hand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Hand"
+  - Name: DeltaT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DeltaT"
+  - Name: AtuneReady
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneReady"
+  - Name: AtuneOn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneOn"
+  - Name: AtuneDone
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneDone"
+  - Name: AtuneAborted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneAborted"
+  - Name: AtuneBusy
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneBusy"
+  - Name: Status1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Status1"
+  - Name: Status2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.Status2"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.InstructFault"
+  - Name: PVFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVFaulted"
+  - Name: CVFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVFaulted"
+  - Name: HandFBFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.HandFBFaulted"
+  - Name: PVSpanInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVSpanInv"
+  - Name: SPProgInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPProgInv"
+  - Name: SPOperInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPOperInv"
+  - Name: SPCascadeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPCascadeInv"
+  - Name: SPLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.SPLimitsInv"
+  - Name: RatioProgInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioProgInv"
+  - Name: RatioOperInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioOperInv"
+  - Name: RatioLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RatioLimitsInv"
+  - Name: CVProgInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVProgInv"
+  - Name: CVOperInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVOperInv"
+  - Name: CVOverrideInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVOverrideInv"
+  - Name: CVPreviousInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVPreviousInv"
+  - Name: CVEUSpanInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVEUSpanInv"
+  - Name: CVLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVLimitsInv"
+  - Name: CVROCLimitInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.CVROCLimitInv"
+  - Name: FFInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.FFInv"
+  - Name: FFPreviousInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.FFPreviousInv"
+  - Name: HandFBInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.HandFBInv"
+  - Name: PGainInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PGainInv"
+  - Name: IGainInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.IGainInv"
+  - Name: DGainInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DGainInv"
+  - Name: ZCDeadbandInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.ZCDeadbandInv"
+  - Name: PVDeadbandInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVDeadbandInv"
+  - Name: PVROCLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.PVROCLimitsInv"
+  - Name: DevHLLimitsInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevHLLimitsInv"
+  - Name: DevDeadbandInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DevDeadbandInv"
+  - Name: AtuneDataInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.AtuneDataInv"
+  - Name: TimingModeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.TimingModeInv"
+  - Name: RTSMissed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RTSMissed"
+  - Name: RTSTimeInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RTSTimeInv"
+  - Name: RTSTimeStampInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.RTSTimeStampInv"
+  - Name: DeltaTInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PID_Calling.PIDE_01.DeltaTInv"

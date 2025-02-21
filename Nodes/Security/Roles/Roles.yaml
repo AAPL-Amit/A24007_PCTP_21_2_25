@@ -1,0 +1,34 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: A
+  Id: g=0bc82a8200312c4ac07f47c42a4ee357
+  Type: ns=1;RoleType
+- Name: B
+  Id: g=8381deaa06ee31919506b8dcbd64fb2b
+  Type: ns=1;RoleType
+- Name: C
+  Id: g=76ab233f72f065e5d17098032b43a567
+  Type: ns=1;RoleType
+- Name: D
+  Id: g=101f5af5035ca25a9baa65c023df338e
+  Type: ns=1;RoleType
+- Name: E
+  Id: g=d65c883de38718d143bcd40cfa346e78
+  Type: ns=1;RoleType
+- Name: F
+  Id: g=9731e68c69800f5b9ce0952b140452af
+  Type: ns=1;RoleType
+- Name: G
+  Id: g=752c033cbf71aff46dfb11767fa17812
+  Type: ns=1;RoleType
+- Name: P
+  Id: g=d0e9bfa6db4be3d20cb0b5f425f04f2e
+  Type: ns=1;RoleType
+- Name: O
+  Id: g=7d727be6359bf0243d3f947c5291d98b
+  Type: ns=1;RoleType
+- Name: L
+  Id: g=1d1f23cbf76405f271e394ca5c76d5a9
+  Type: ns=1;RoleType

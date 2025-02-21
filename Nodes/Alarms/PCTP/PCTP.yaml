@@ -1,0 +1,6 @@
+Name: PCTP
+Id: g=65728a5faebd748564ea112f2a4ffc7b
+Type: FolderType
+Children:
+- File: AI_ALARM/AI_ALARM.yaml
+- File: DI_ALARM/DI_ALARM.yaml

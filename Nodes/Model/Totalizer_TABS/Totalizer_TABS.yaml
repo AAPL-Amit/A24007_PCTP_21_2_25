@@ -1,0 +1,12 @@
+Name: Totalizer_TABS
+Type: FolderType
+Children:
+- Name: Totalizer_TBA
+  Id: g=373746001771f670ceea0a206d323ae7
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Unit
+  Id: g=5db76fa84676e79364cf184a8c94daab
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

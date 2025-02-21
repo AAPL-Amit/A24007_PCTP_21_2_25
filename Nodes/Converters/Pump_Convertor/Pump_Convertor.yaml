@@ -1,0 +1,843 @@
+Name: Pump_Convertor
+Type: FolderType
+Children:
+- Name: RED_GREEN
+  Id: g=cc6ebd3d6993008d6530530f3f8ebd5b
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#cfcfcf"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ffffff"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: COLOUR
+  Id: g=a488f530e4cb405ee96c23e76a2eb759
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#cfcfcf"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb00"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#f8e71c"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 6
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#075982"
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#eb001b"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+- Name: motor_status_Indicator_text
+  Id: g=b92e1e63f1a09dc580e343c1ac2e35f5
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Motor Stop"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Running"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Run F/B Fail"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Motor Trip"
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 4
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Motor Stop Fail"
+    - Name: Pair5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 6
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Motor Interlock"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: local_mode_multistate
+  Id: g=7dc3c6e42add2fc3ec82006e045d1e1d
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "R"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "L"
+- Name: local_mode_multistate_colour
+  Id: g=0147085165944e8f18f80d01552654b2
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#4c5ec8"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb00"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: Manual_mode_multistate
+  Id: g=f242cdfe69c49b711fdec3b0373c8d37
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "A"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "M"
+- Name: Manual_mode_multistate_colour
+  Id: g=7372ab3fcd3fdf94d8751c7ceafb40f0
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb00"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#0fafff"
+- Name: bypass_interlock_colour
+  Id: g=2a1a9baa8b2d1d4b62ac64a2fe333812
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00ff00"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#f8e71c"
+- Name: bypass_interlock_multistate
+  Id: g=2bdf2b4b2b16dece035a87313843d699
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "I"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "B"
+- Name: KeyValueConverter1
+  Id: g=0277e508e2c6f3fa5d62fbb042fdc150
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+- Name: Gray__Green
+  Id: g=378d545c5b8f1ad7b142fd1a7c5ceabb
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ffffff"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#cfcfcf"
+- Name: BLINK_
+  Id: g=bcfded448a34b59868f2fe4f4edb0482
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#e0e0e0"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb00"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb00"
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 4
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#eb001b"
+    - Name: Pair5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 5
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#eb001b"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+    Value: 2
+- Name: TRIP_BLINK
+  Id: g=2f68a995344386f19d6d98235d95973c
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#eb001b"
+- Name: Feedback_bypass_colour
+  Id: g=741fbd0a1ff8b50b1ffc3b2099facb5a
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ffff6e"
+- Name: Interlock_Bypass_text
+  Id: g=45726142375b3c8cc3a33a125a051306
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Interlock Bypass"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Interlock Bypass"
+- Name: Feedback_bypass_text
+  Id: g=f347df7599682df5e6ea10491c013779
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Feedback Bypass"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Feedback Bypass"
+- Name: Fail_and_trip_alarm_indication_colour
+  Id: g=8fc2dd5dd472e8642c6a20bf54927af7
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ff0000"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+- Name: Fail_and_trip_alarm_indication_colour1
+  Id: g=9a85fc069ea20bc0a913b1984332f83d
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c0c0c0"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ffff00"

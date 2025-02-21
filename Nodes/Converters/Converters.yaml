@@ -1,0 +1,6 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- File: Pump_Convertor/Pump_Convertor.yaml
+- File: Solenoid_Valve/Solenoid_Valve.yaml
+- File: AI/AI.yaml

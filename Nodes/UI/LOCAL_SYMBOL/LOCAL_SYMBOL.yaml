@@ -1,0 +1,4 @@
+Name: LOCAL_SYMBOL
+Type: FolderType
+Children:
+- File: tank/tank.yaml

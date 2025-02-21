@@ -1,0 +1,131 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: ClockLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: UTCTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Type: BaseDataVariableType
+      DataType: Int32
+- Name: Blink
+  Type: NetLogic
+  Children:
+  - Name: Blink_Fast
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: ImportAndExportAlarms
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ImportAlarms
+  - Class: Method
+    Name: ExportAlarms
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///E:/FT OPTIX/PCTP/A24007/alarm/OffNormalAlarmController.csv"
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ns=23;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 23
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "a6ee1600e16a9f4277b3724d54711be5",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: TRENDS_TIME
+  Type: NetLogic
+  Children:
+  - Name: 'day '
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: hour
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: minute
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: second
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: millisecond
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: GetFormattedTime
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: UpdateTime
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Format
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: string.Format
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: TrendTime
+    Type: BaseDataVariableType
+    DataType: Integer
+    Value: {"Type":8,"Body":0}

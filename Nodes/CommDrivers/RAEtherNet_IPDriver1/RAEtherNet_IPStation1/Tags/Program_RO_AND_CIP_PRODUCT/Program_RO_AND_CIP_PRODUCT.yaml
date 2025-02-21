@@ -1,0 +1,123 @@
+Name: 'Program:RO_AND_CIP_PRODUCT'
+Type: FolderType
+Children:
+- Name: LAL_450407
+  Type: UDT_DI
+  DataType: UDT_DI
+  Children:
+  - Name: DI
+    Type: CM_DI
+    DataType: CM_DI
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.EnableOut"
+    - Name: Inp_PV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Inp_PV"
+    - Name: Inp_Sim
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Inp_Sim"
+    - Name: Inp_Polarity
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Inp_Polarity"
+    - Name: Set_SimPV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Set_SimPV"
+    - Name: Cfg_OnDly
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Cfg_OnDly"
+    - Name: Cfg_OffDly
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Cfg_OffDly"
+    - Name: Sts_PV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Sts_PV"
+    - Name: Val_OnDly
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Val_OnDly"
+    - Name: Val_OffDly
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Val_OffDly"
+    - Name: Wrk_Sts
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.DI.Wrk_Sts"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:RO_AND_CIP_PRODUCT.LAL_450407.Tagname"
+- Name: LAL_450807
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:RO_AND_CIP_PRODUCT.LAL_450807"

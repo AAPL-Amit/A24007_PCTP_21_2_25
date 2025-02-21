@@ -1,0 +1,7 @@
+Name: VFD_TABS
+Type: FolderType
+Children:
+- Name: VFD_TBA1
+  Id: g=ca05dc8b8bd5cb4105f077bb4a54f6c0
+  Type: BaseDataVariableType
+  DataType: UInt16

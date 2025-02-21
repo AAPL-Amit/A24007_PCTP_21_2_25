@@ -1,0 +1,110 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: TEMP_VALUE
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TEMP"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- File: PUMP_TABS/PUMP_TABS.yaml
+- File: VFD_TABS/VFD_TABS.yaml
+- File: SOV_VALVE_TABS/SOV_VALVE_TABS.yaml
+- File: AI_TABS/AI_TABS.yaml
+- File: Totalizer_TABS/Totalizer_TABS.yaml
+- File: PIDE_TABS/PIDE_TABS.yaml
+- Name: Tgnamame_Tota
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: motor 1
+  Type: BaseObjectType
+  Children:
+  - Name: mix_1
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: mix 2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: mix 3
+    Type: BaseDataVariableType
+    DataType: Int16
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_3"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: mix 4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_4"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: SUMIT
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TEST"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- File: MSDH_TABS/MSDH_TABS.yaml
+- Name: TOOL TIP
+  Id: g=b9a0afae78ef4b8f5255fe82e115f51f
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: PVMAX
+  Id: g=a5b86ac0ebe27524045ec8678c069648
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 35000.0
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

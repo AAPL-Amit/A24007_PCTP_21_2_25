@@ -1,0 +1,7 @@
+Name: SOV_VALVE_TABS
+Type: FolderType
+Children:
+- Name: VALVE_TBA1
+  Id: g=c8eec818c1f161a60b511546ee7abb8b
+  Type: BaseDataVariableType
+  DataType: Int16

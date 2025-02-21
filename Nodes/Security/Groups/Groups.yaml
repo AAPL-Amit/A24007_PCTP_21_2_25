@@ -1,0 +1,14 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: Window
+  Id: g=be0c6c7dcdb88ba6c6a309e0752792f8
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=101f5af5035ca25a9baa65c023df338e
+- Name: Group1
+  Id: g=6883617f800ba4c68ce8fdaed937ba79
+  Type: GroupType

@@ -1,0 +1,24 @@
+Name: PUMP TABS
+Type: FolderType
+Children:
+- Name: TAB1
+  Id: g=fcb7aa66964abcbdc01488cf94854506
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: TAB2
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../UI/GLOBAL OBJECT/All Pumps/Pump_Forward@BrowseName"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

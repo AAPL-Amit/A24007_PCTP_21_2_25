@@ -1,0 +1,7 @@
+Name: AI_TABS
+Type: FolderType
+Children:
+- Name: AI_TBA
+  Id: g=86d12e1a2ff0cbd9e96b428d43308e6b
+  Type: BaseDataVariableType
+  DataType: Int16

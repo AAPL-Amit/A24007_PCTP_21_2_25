@@ -1,0 +1,7 @@
+Name: Graphics
+Type: ScreensCategoryFolder
+Children:
+- File: LoginForm1/LoginForm1.yaml
+- File: Trends/Trends.yaml
+- File: Alarms/Alarms.yaml
+- File: P&ID_Screen/P&ID_Screen.yaml

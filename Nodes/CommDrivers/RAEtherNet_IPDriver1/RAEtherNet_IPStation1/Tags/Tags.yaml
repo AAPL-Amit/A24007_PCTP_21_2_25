@@ -1,0 +1,11 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_FEED_RO/Program_FEED_RO.yaml
+- File: Program_PID_Calling/Program_PID_Calling.yaml
+- File: Program_REJECT_RO/Program_REJECT_RO.yaml
+- File: Program_RO_AND_CIP_PRODUCT/Program_RO_AND_CIP_PRODUCT.yaml
+- File: Program_Standard_Calling/Program_Standard_Calling.yaml
+- File: Program_ULTRA_FILTRATION/Program_ULTRA_FILTRATION.yaml
+- File: Program_VFD_PID/Program_VFD_PID.yaml
