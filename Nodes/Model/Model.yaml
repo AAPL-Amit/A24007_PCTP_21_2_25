@@ -108,3 +108,12 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType

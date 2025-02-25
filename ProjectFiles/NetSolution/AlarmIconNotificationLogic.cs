@@ -12,6 +12,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.DataLogger;
 using FTOptix.ODBCStore;
+using FTOptix.AuditSigning;
 #endregion
 
 public class AlarmIconNotificationLogic : BaseNetLogic
