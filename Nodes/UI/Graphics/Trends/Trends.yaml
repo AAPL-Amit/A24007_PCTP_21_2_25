@@ -6712,7 +6712,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ebcbce"
+            Value: "#d4e1fa"
           - Name: Label2
             Type: Label
             Children:
@@ -7295,12 +7295,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -8.0
+              Value: -32.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -9.0
+              Value: 696.0
           - Name: Checkbox1
             Type: CheckBox
             Children:
@@ -13831,7 +13831,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#d6e2fa"
+            Value: "#d4e1fa"
           - Name: Label2
             Type: Label
             Children:

@@ -102186,6 +102186,7 @@ Children:
       DataType: String
       Value: "C1_CHEMICAL_REJECT_DRAIN.LimitHigh"
 - Name: UP_4501A_PUMP_SELECTED
+  Id: g=739c453aa3f0da489880512c60929d74
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -106292,6 +106293,7 @@ Children:
       DataType: String
       Value: "UP_4503B.Intlk_Desc"
 - Name: Reject_interlock
+  Id: g=e045928b7b58c676d2548ae766ac304b
   Type: RAEtherNetIPTag
   DataType: Int32
   ValueRank: OneDimension
@@ -106524,6 +106526,7 @@ Children:
     DataType: String
     Value: "P_4502_A_PUMP_SELECTED"
 - Name: Feed_interlock
+  Id: g=6800ef4a5988de50fa01629e508d9b6c
   Type: RAEtherNetIPTag
   DataType: Int32
   ValueRank: OneDimension
@@ -119098,6 +119101,7 @@ Children:
     DataType: String
     Value: "AUTO_AERATION2"
 - Name: AUTO_AERATION3
+  Id: g=acf1549778acaebc71193cf0cb630ee3
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -121208,6 +121212,7 @@ Children:
     DataType: String
     Value: "START_AERATION2"
 - Name: START_AERATION3
+  Id: g=fa9c29121eec4ca856693e45957a3083
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -124094,3 +124099,1291 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "AI_2"
+- Name: V1
+  Type: UDT_VALVE
+  DataType: UDT_VALVE
+  Children:
+  - Name: Valve
+    Type: VALVE_NC
+    DataType: VALVE_NC
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.EnableOut"
+    - Name: AUTO_MAN_CMD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.AUTO_MAN_CMD"
+    - Name: AUTO_CMD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.AUTO_CMD"
+    - Name: OUT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.OUT"
+    - Name: INTERLOCKED
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.INTERLOCKED"
+    - Name: OPEN_CMD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.OPEN_CMD"
+    - Name: CLOSE_CMD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.CLOSE_CMD"
+    - Name: OPR_LCK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.OPR_LCK"
+    - Name: CLOSE_FB_BYPASS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.CLOSE_FB_BYPASS"
+    - Name: OPEN_FB_BYPASS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.OPEN_FB_BYPASS"
+    - Name: FAIL_TO_OPEN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.FAIL_TO_OPEN"
+    - Name: RST
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.RST"
+    - Name: FAIL_TO_CLOSE
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.FAIL_TO_CLOSE"
+    - Name: USE_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.USE_FB"
+    - Name: Sts_Opened
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.Sts_Opened"
+    - Name: FB_TIME_C
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.FB_TIME_C"
+    - Name: FB_TIME_O
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.FB_TIME_O"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.Status"
+    - Name: MAN_CMD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.MAN_CMD"
+    - Name: CLS_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.CLS_FB"
+    - Name: OPN_FB
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.OPN_FB"
+    - Name: INTERLOCK_BYPASS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.INTERLOCK_BYPASS"
+    - Name: Navigation
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.Navigation"
+    - Name: ONS
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.ONS"
+    - Name: MODE
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.MODE"
+    - Name: CFG_DESC
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.CFG_DESC"
+    - Name: CFG_TAG
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "V1.Valve.CFG_TAG"
+  - Name: Tagname
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "V1.Tagname"
+- Name: 'false'
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "false"
+- Name: MP_4501A_B_PRECHECK_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501A_B_PRECHECK_POPUP"
+- Name: Close
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Close"
+- Name: MP_4501_START
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501_START"
+- Name: MP_4501_OK
+  Id: g=5510c7432d7e239729d633c7bb37c5e7
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501_OK"
+- Name: FILTRATION_ONS
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FILTRATION_ONS"
+- Name: T1
+  Type: TIMER
+  DataType: TIMER
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Children:
+  - Name: 0
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[0].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[0].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[0].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[0].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[0].DN"
+  - Name: 1
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[1].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[1].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[1].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[1].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[1].DN"
+  - Name: 2
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[2].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[2].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[2].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[2].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[2].DN"
+  - Name: 3
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[3].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[3].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[3].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[3].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[3].DN"
+  - Name: 4
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[4].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[4].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[4].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[4].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[4].DN"
+  - Name: 5
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[5].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[5].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[5].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[5].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[5].DN"
+  - Name: 6
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[6].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[6].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[6].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[6].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[6].DN"
+  - Name: 7
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[7].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[7].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[7].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[7].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[7].DN"
+  - Name: 8
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[8].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[8].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[8].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[8].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[8].DN"
+  - Name: 9
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[9].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[9].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[9].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[9].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[9].DN"
+  - Name: 10
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[10].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[10].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[10].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[10].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[10].DN"
+  - Name: 11
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[11].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[11].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[11].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[11].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[11].DN"
+  - Name: 12
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[12].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[12].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[12].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[12].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[12].DN"
+  - Name: 13
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[13].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[13].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[13].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[13].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[13].DN"
+  - Name: 14
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[14].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[14].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[14].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[14].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[14].DN"
+  - Name: 15
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[15].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[15].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[15].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[15].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[15].DN"
+  - Name: 16
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[16].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[16].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[16].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[16].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[16].DN"
+  - Name: 17
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[17].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[17].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[17].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[17].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[17].DN"
+  - Name: 18
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[18].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[18].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[18].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[18].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[18].DN"
+  - Name: 19
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[19].PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[19].ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[19].EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[19].TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T1[19].DN"
+- Name: MP_4501_CLOSE
+  Id: g=f81b24a7a2c66a05d8ed943bee019e06
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501_CLOSE"
+- Name: FEED_RO_RUNFB_BYPASS
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FEED_RO_RUNFB_BYPASS"
+- Name: UF_REMAINING_TIME_MIN
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_REMAINING_TIME_MIN"
+- Name: UF_REMAINING_TIME
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_REMAINING_TIME"
+- Name: UF_PLANT_FAULT_BYPASS
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_PLANT_FAULT_BYPASS"
+- Name: UF_MINSEC
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_MINSEC"
+- Name: UF_REMAINING_TIME_SEC
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_REMAINING_TIME_SEC"
+- Name: UF_Seconds
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_Seconds"
+- Name: UF_Minute
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_Minute"
+- Name: UF_SECOND
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_SECOND"
+- Name: UF_Seconds_1
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_Seconds_1"
+- Name: INTERLOCK_BYPASS
+  Id: g=2dfe1a0db127204684a86f01add03b49
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "INTERLOCK_BYPASS"
+- Name: UF_PLANT_FAULT_BYPASS_1
+  Id: g=bc0f2687d4734fa24b07b3bc096f2845
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "UF_PLANT_FAULT_BYPASS_1"
