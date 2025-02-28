@@ -124372,7 +124372,6 @@ Children:
     DataType: String
     Value: "MP_4501_START"
 - Name: MP_4501_OK
-  Id: g=5510c7432d7e239729d633c7bb37c5e7
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -125277,7 +125276,6 @@ Children:
         DataType: String
         Value: "T1[19].DN"
 - Name: MP_4501_CLOSE
-  Id: g=f81b24a7a2c66a05d8ed943bee019e06
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -125387,3 +125385,189 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "UF_PLANT_FAULT_BYPASS_1"
+- Name: PUMP_AUTO
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PUMP_AUTO"
+- Name: PUMP_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PUMP_POPUP"
+- Name: PUMP_POPUP_VISIBLE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PUMP_POPUP_VISIBLE"
+- Name: MP_4501A_AUTO
+  Id: g=fd1178ee3beae55bb5d0a4989a1225cf
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501A_AUTO"
+- Name: MP_4501_PRECHECK_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501_PRECHECK_POPUP"
+- Name: MP_4501A_AUTO_CLOSE
+  Id: g=48be917896f1f7fbad68149a2e97db81
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4501A_AUTO_CLOSE"
+- Name: MP_4502_AUTO_CLOSE
+  Id: g=978ecad324db219b149b0d316ae053a3
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4502_AUTO_CLOSE"
+- Name: MP_4502A_AUTO
+  Id: g=d85f4e756b603d8dab6a4e0146ecb4ed
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4502A_AUTO"
+- Name: MP_4502_POPUP_VISIBLE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4502_POPUP_VISIBLE"
+- Name: MP_4502_PRECHECK_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4502_PRECHECK_POPUP"
+- Name: MP_4509_PRECHECK_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4509_PRECHECK_POPUP"
+- Name: MP_4509_AUTO_CLOSE
+  Id: g=46089c3eda66ed6136d50d064e64438a
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4509_AUTO_CLOSE"
+- Name: MP_4509_POPUP_VISIBLE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4509_POPUP_VISIBLE"
+- Name: MP_4509A_AUTO
+  Id: g=52363feb5a7e44f4d6d202478d7df243
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4509A_AUTO"
+- Name: MP_4512A_AUTO
+  Id: g=a7a221a9371426ab0e468f1d54ebb069
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4512A_AUTO"
+- Name: MP_4512_PRECHECK_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4512_PRECHECK_POPUP"
+- Name: MP_4512_AUTO_CLOSE
+  Id: g=bb4a9128452935bc321e96cdcb7e7a54
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4512_AUTO_CLOSE"
+- Name: MP_4512_POPUP_VISIBLE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4512_POPUP_VISIBLE"
+- Name: MP_4522A_AUTO
+  Id: g=54c82af928f0bf1107dfe27ea6c96368
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4522A_AUTO"
+- Name: MP_4522_PRECHECK_POPUP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4522_PRECHECK_POPUP"
+- Name: MP_4522_POPUP_VISIBLE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4522_POPUP_VISIBLE"
+- Name: MP_4522_AUTO_CLOSE
+  Id: g=2ccee8f4d8c3d3d609e165a9a8863f6a
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MP_4522_AUTO_CLOSE"
