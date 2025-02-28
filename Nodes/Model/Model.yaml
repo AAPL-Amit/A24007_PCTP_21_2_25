@@ -117,3 +117,9 @@ Children:
       Type: BaseObjectType
     - Name: Groups
       Type: BaseObjectType
+- Name: Datalog_StartDate
+  Type: BaseDataVariableType
+  DataType: DateTime
+- Name: Datalog_EndDate
+  Type: BaseDataVariableType
+  DataType: DateTime
