@@ -125275,6 +125275,46 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "T1[19].DN"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ACC"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EN"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TT"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DN"
 - Name: MP_4501_CLOSE
   Type: RAEtherNetIPTag
   DataType: Boolean

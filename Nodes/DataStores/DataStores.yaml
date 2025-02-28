@@ -9,6 +9,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: FLOW
+      Id: g=cf5a92932cf3f1f341adac3bfb677b54
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -26,9 +27,6 @@ Children:
       - Name: Columns
         Type: BaseObjectType
         Children:
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: UtcTime
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
@@ -65,7 +63,11 @@ Children:
         - Name: MG_450701
           Type: StoreColumn
           DataType: Float
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
     - Name: TOTALISER
+      Id: g=44db828327a1b4e182af53f9b02b4dd8
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -123,6 +125,7 @@ Children:
           Type: StoreColumn
           DataType: Float
     - Name: CONDUCTIVITY
+      Id: g=2ce24b04a2fe5a6c7178b9ee5fc4ffb2
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -165,6 +168,7 @@ Children:
           Type: StoreColumn
           DataType: Float
     - Name: PH
+      Id: g=a9df556f0ed814c27781c03d7cfc38af
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -210,6 +214,7 @@ Children:
           Type: StoreColumn
           DataType: Float
     - Name: RPM
+      Id: g=c6d94cd55a533bf59694888681129674
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
